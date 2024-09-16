@@ -53,5 +53,6 @@ This script establishes a connection to an Amazon Redshift cluster using the psy
 This sets up a schema named telecom and a table telecom_data with appropriate data types for the telecom dataset we're working with.
 
 ## Future Upgrade
-### In the future, this project can be extended by exporting processed data from Redshift to popular data visualization tools such as Power BI and Tableau. This integration will enable advanced analytics and visual reporting, offering deeper insights from the real-time ingested data. By establishing direct connections from Redshift to these tools, users can create dynamic dashboards and reports, enhancing the overall utility of the pipeline for business intelligence.
+
+In the future, this project can be extended by exporting processed data from Redshift to popular data visualization tools such as Power BI and Tableau. This integration will enable advanced analytics and visual reporting, offering deeper insights from the real-time ingested data. By establishing direct connections from Redshift to these tools, users can create dynamic dashboards and reports, enhancing the overall utility of the pipeline for business intelligence.
 
