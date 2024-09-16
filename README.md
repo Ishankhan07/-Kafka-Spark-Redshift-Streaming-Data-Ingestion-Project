@@ -8,11 +8,11 @@ This project demonstrates a real-time data pipeline using Kafka for message queu
 ### To execute the data Ingestion Project, Follow these steps:
 
 1. #### Set up Kafka and Zookeeper Use Docker to deploy a Kafka broker and Zookeeper for message queuing and coordination.
-2. #### Create Kafka producer: Write a script to push data to Kafka topics.
-3. #### Deploy Spark Streaming: Create a Spark application to consume data from Kafka topics, process it, and prepare it for Redshift ingestion.
-4. #### Configure Redshift: Set up AWS Redshift, create tables, and configure JDBC/ODBC connectors for Spark to interact with Redshift.
-5. #### Run Docker Compose: Use Docker Compose to orchestrate services like Kafka, Spark, and Redshift in containers.
-6. #### Execute Pipeline: Start Kafka producer, Spark job, and observe processed data being written to Redshift.
+2. #### Create Kafka producer write a script to push data to Kafka topics.
+3. #### Deploy Spark Streaming create a Spark application to consume data from Kafka topics, process it, and prepare it for Redshift ingestion.
+4. #### Configure Redshift set up AWS Redshift, create tables, and configure JDBC/ODBC connectors for Spark to interact with Redshift.
+5. #### Run Docker Compose use Docker Compose to orchestrate services like Kafka, Spark, and Redshift in containers.
+6. #### Execute Pipeline start Kafka producer, Spark job, and observe processed data being written to Redshift.
 
 
 
